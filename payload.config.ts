@@ -16,23 +16,6 @@ const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
 
 const MAIN_SITE_URL = process.env.MAIN_SITE_URL || ''
-const REVALIDATE_TOKEN = process.env.REVALIDATE_TOKEN || ''
-
-async function triggerRevalidation(slug?: string) {
-  if (!MAIN_SITE_URL || !REVALIDATE_TOKEN) return
-  try {
-    await fetch(`${MAIN_SITE_URL}/api/revalidate`, {
-      method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        Authorization: `Bearer ${REVALIDATE_TOKEN}`,
-      },
-      body: JSON.stringify({ slug }),
-    })
-  } catch (err) {
-    console.error('[CMS] Failed to trigger revalidation:', err)
-  }
-}
 
 export default buildConfig({
   serverURL: process.env.PAYLOAD_PUBLIC_SERVER_URL || 'http://localhost:3000',
@@ -99,16 +82,4 @@ export default buildConfig({
   ],
 
   sharp,
-
-  hooks: {
-    afterOperation: [
-      async ({ operation, collection, result }) => {
-        // Revalidate main site cache when posts are created/updated/deleted
-        if (collection?.slug === 'posts' && ['create', 'update', 'delete'].includes(operation)) {
-          const slug = (result as { slug?: string })?.slug
-          await triggerRevalidation(slug)
-        }
-      },
-    ],
-  },
 })

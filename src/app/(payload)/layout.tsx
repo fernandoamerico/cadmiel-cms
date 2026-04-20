@@ -2,6 +2,7 @@ import React from 'react'
 import { RootLayout, handleServerFunctions } from '@payloadcms/next/layouts'
 import { importMap } from './admin/importMap'
 import type { ServerFunctionClient } from 'payload'
+// @ts-expect-error
 import '@payloadcms/next/css'
 
 const configPromise = import('../../../payload.config').then((m) => m.default)

@@ -1,8 +1,27 @@
 import type { CollectionConfig } from 'payload'
 import { convertMarkdownToLexical, editorConfigFactory, EXPERIMENTAL_TableFeature } from '@payloadcms/richtext-lexical'
+import { triggerRevalidation } from '../utilities/revalidate'
 
 export const Posts: CollectionConfig = {
   slug: 'posts',
+  hooks: {
+    afterChange: [
+      ({ doc, previousDoc, operation }) => {
+        // Trigger revalidation if the post is published or was published
+        if (doc.status === 'published' || previousDoc?.status === 'published') {
+          triggerRevalidation(doc.slug)
+        }
+      },
+    ],
+    afterDelete: [
+      ({ doc }) => {
+        // Trigger revalidation when a published post is deleted
+        if (doc.status === 'published') {
+          triggerRevalidation(doc.slug)
+        }
+      },
+    ],
+  },
   admin: {
     useAsTitle: 'title',
     defaultColumns: ['title', 'slug', 'status', 'publishedAt'],
