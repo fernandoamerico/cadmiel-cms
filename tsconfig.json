@@ -13,8 +13,6 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "ignoreDeprecations": "6.0",
-    "baseUrl": ".",
     "paths": {
       "@payload-config": ["./payload.config.ts"],
       "@/*": ["./src/*"]
