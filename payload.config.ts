@@ -36,12 +36,14 @@ export default buildConfig({
   // Allow the main site to call the Payload REST API cross-origin
   cors: [
     MAIN_SITE_URL,
+    MAIN_SITE_URL ? MAIN_SITE_URL.replace('https://', 'https://www.') : '',
     'http://localhost:3000',
     'http://localhost:3001',
   ].filter(Boolean),
 
   csrf: [
     MAIN_SITE_URL,
+    MAIN_SITE_URL ? MAIN_SITE_URL.replace('https://', 'https://www.') : '',
     'http://localhost:3000',
     'http://localhost:3001',
   ].filter(Boolean),
