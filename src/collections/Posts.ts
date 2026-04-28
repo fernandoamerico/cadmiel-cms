@@ -75,12 +75,14 @@ export const Posts: CollectionConfig = {
               const contentM = text.match(/conteudo_markdown\s*=\s*f?["']{3}([\s\S]*?)["']{3}/)
               const seoTitleM = text.match(/"title":\s*f?["'](.*?)["']/)
               const seoDescM = text.match(/"description":\s*f?["'](.*?)["']/)
+              const resumoM = text.match(/resumo_seo\s*=\s*["'](.*?)["']/)
 
               if (tituloM && contentM) {
                 return {
                   title: tituloM[1],
                   slug: slugM?.[1],
                   category: catM?.[1] || 'Novidades',
+                  excerpt: resumoM?.[1],
                   markdown: contentM[1].replace(/\{titulo\}/g, tituloM[1]),
                   seo: { title: seoTitleM?.[1], description: seoDescM?.[1] }
                 }
@@ -98,6 +100,7 @@ export const Posts: CollectionConfig = {
                   title: getVal('title') || file.name.replace(/\.md$/, ''),
                   slug: getVal('slug'),
                   category: getVal('category') || 'Novidades',
+                  excerpt: getVal('excerpt') || getVal('description') || getVal('resumo'),
                   markdown: fmMatch[2].trim(),
                   seo: { title: getVal('seo_title'), description: getVal('seo_description') }
                 }
@@ -105,7 +108,9 @@ export const Posts: CollectionConfig = {
 
               return {
                 title: text.split('\n')[0].replace(/^#\s*/, '').trim() || file.name,
-                markdown: text
+                excerpt: undefined as string | undefined,
+                markdown: text,
+                seo: {} as any
               }
             })(content)
 
@@ -121,11 +126,12 @@ export const Posts: CollectionConfig = {
                 slug: meta.slug || undefined, // Deixa o hook gerar se vazio
                 status: 'draft',
                 category: meta.category,
+                excerpt: meta.excerpt,
                 content: lexicalContent,
-                seo: meta.seo?.title || meta.seo?.description ? {
-                  title: meta.seo.title,
-                  description: meta.seo.description,
-                } : undefined,
+                seo: {
+                  title: meta.seo?.title || undefined,
+                  description: meta.seo?.description || meta.excerpt || undefined,
+                },
               },
             })
             count++
