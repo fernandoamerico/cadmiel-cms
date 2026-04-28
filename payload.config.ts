@@ -18,7 +18,7 @@ const dirname = path.dirname(filename)
 const MAIN_SITE_URL = process.env.MAIN_SITE_URL || ''
 
 export default buildConfig({
-  serverURL: process.env.PAYLOAD_PUBLIC_SERVER_URL || 'http://localhost:3000',
+  serverURL: process.env.PAYLOAD_PUBLIC_SERVER_URL || (process.env.VERCEL_URL ? `https://${process.env.VERCEL_URL}` : 'http://localhost:3000'),
   admin: {
     user: Users.slug,
     importMap: {
