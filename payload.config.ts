@@ -36,18 +36,19 @@ export default buildConfig({
 
   // Allow the main site to call the Payload REST API cross-origin
   cors: [
-    MAIN_SITE_URL,
-    MAIN_SITE_URL ? MAIN_SITE_URL.replace('https://', 'https://www.') : '',
+    'https://cadmielconstrutora.com',
+    'https://www.cadmielconstrutora.com',
+    'https://cadmiel-cms.vercel.app', // Fallback URL da Vercel
     'http://localhost:3000',
     'http://localhost:3001',
-  ].filter(Boolean),
+  ],
 
   csrf: [
-    MAIN_SITE_URL,
-    MAIN_SITE_URL ? MAIN_SITE_URL.replace('https://', 'https://www.') : '',
+    'https://cadmielconstrutora.com',
+    'https://www.cadmielconstrutora.com',
     'http://localhost:3000',
     'http://localhost:3001',
-  ].filter(Boolean),
+  ],
 
   collections: [Users, Posts, Media, Projects],
 
