@@ -14,7 +14,7 @@ export const Media: CollectionConfig = {
         name: 'thumbnail',
         width: 400,
         height: 300,
-        position: 'centre',
+        position: 'center',
       },
     ],
     adminThumbnail: 'thumbnail',
@@ -28,7 +28,7 @@ export const Media: CollectionConfig = {
   },
   admin: {
     useAsTitle: 'alt',
-    defaultColumns: ['thumbnail', 'filename', 'alt', 'caption', 'updatedAt'],
+    defaultColumns: ['filename', 'alt', 'caption', 'updatedAt'],
   },
   fields: [
     {
