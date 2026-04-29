@@ -12,7 +12,11 @@ export const Media: CollectionConfig = {
     mimeTypes: ['image/*'],
     // Usa a URL original como miniatura na administração para garantir que o preview apareça
     // mesmo que o processamento de tamanhos falhe ou não seja configurado.
-    adminThumbnail: ({ doc }) => (doc.url as string) || `/api/media/file/${doc.filename}`,
+    adminThumbnail: ({ doc }) => {
+      const url = doc.url as string
+      if (url && url.startsWith('http')) return url
+      return `/media/${doc.filename}`
+    },
   },
   access: {
     read: () => true, // publicly readable
@@ -23,8 +27,20 @@ export const Media: CollectionConfig = {
   admin: {
     useAsTitle: 'filename',
     defaultColumns: ['thumbnail', 'filename', 'alt', 'updatedAt'],
+    components: {
+      beforeListTable: ['../components/GalleryView'],
+    },
   },
   fields: [
+    {
+      name: 'thumbnail',
+      type: 'ui',
+      admin: {
+        components: {
+          Cell: '../components/MediaThumbnailCell',
+        },
+      },
+    },
     {
       name: 'alt',
       type: 'text',
