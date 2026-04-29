@@ -10,6 +10,9 @@ export const Media: CollectionConfig = {
   upload: {
     staticDir: path.resolve(dirname, '../../public/media'),
     mimeTypes: ['image/*'],
+    // Usa a URL original como miniatura na administração para garantir que o preview apareça
+    // mesmo que o processamento de tamanhos falhe ou não seja configurado.
+    adminThumbnail: ({ doc }) => (doc.url as string) || `/api/media/file/${doc.filename}`,
   },
   access: {
     read: () => true, // publicly readable
@@ -19,6 +22,7 @@ export const Media: CollectionConfig = {
   },
   admin: {
     useAsTitle: 'filename',
+    defaultColumns: ['thumbnail', 'filename', 'alt', 'updatedAt'],
   },
   fields: [
     {
