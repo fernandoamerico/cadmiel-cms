@@ -1,11 +1,11 @@
 'use client'
 import React, { useState } from 'react'
-import { useListContext } from '@payloadcms/ui'
+import { useListQuery } from '@payloadcms/ui'
 import { Gutter } from '@payloadcms/ui'
 import { MediaThumbnailCell } from './MediaThumbnailCell'
 
 export const GalleryView: React.FC = () => {
-  const { data, collectionSlug } = useListContext()
+  const { data, collectionSlug } = useListQuery()
   const [view, setView] = useState<'table' | 'grid'>('table')
 
   if (collectionSlug !== 'media') return null
@@ -59,7 +59,7 @@ export const GalleryView: React.FC = () => {
         gap: '20px',
         padding: '20px 0'
       }}>
-        {data.docs?.map((doc: any) => (
+        {data?.docs?.map((doc: any) => (
           <div key={doc.id} style={{
             border: '1px solid #e5e7eb',
             borderRadius: '8px',
