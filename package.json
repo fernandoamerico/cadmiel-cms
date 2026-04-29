@@ -9,7 +9,9 @@
     "start": "next start",
     "generate:importmap": "payload generate:importmap",
     "generate:types": "payload generate:types",
-    "import:post": "tsx --env-file=.env.local src/scripts/importPost.ts"
+    "import:post": "tsx --env-file=.env.local src/scripts/importPost.ts",
+    "migrate:projects": "tsx --env-file=.env.local src/scripts/migrateProjects.ts",
+    "payload": "payload"
   },
   "dependencies": {
     "@payloadcms/db-postgres": "^3.82.1",

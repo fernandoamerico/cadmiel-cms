@@ -11,6 +11,7 @@ import sharp from 'sharp'
 import { Users } from './src/collections/Users'
 import { Posts } from './src/collections/Posts'
 import { Media } from './src/collections/Media'
+import { Projects } from './src/collections/Projects'
 
 const filename = fileURLToPath(import.meta.url)
 const dirname = path.dirname(filename)
@@ -48,7 +49,7 @@ export default buildConfig({
     'http://localhost:3001',
   ].filter(Boolean),
 
-  collections: [Users, Posts, Media],
+  collections: [Users, Posts, Media, Projects],
 
   editor: lexicalEditor({ features: ({ defaultFeatures }) => [...defaultFeatures, EXPERIMENTAL_TableFeature()] }),
 
