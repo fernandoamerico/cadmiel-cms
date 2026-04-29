@@ -4,7 +4,7 @@ export const Projects: CollectionConfig = {
   slug: 'projects',
   admin: {
     useAsTitle: 'title',
-    defaultColumns: ['coverImage', 'title', 'slug', 'category', 'status'],
+    defaultColumns: ['title', 'slug', 'category', 'status'],
     group: 'Conteúdo',
   },
   access: {

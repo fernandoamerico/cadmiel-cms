@@ -9,15 +9,6 @@ export const Media: CollectionConfig = {
   slug: 'media',
   upload: {
     staticDir: path.resolve(dirname, '../../public/media'),
-    imageSizes: [
-      {
-        name: 'thumbnail',
-        width: 400,
-        height: 300,
-        position: 'center',
-      },
-    ],
-    adminThumbnail: 'thumbnail',
     mimeTypes: ['image/*'],
   },
   access: {
@@ -27,14 +18,13 @@ export const Media: CollectionConfig = {
     delete: ({ req }) => !!req.user,
   },
   admin: {
-    useAsTitle: 'alt',
-    defaultColumns: ['filename', 'alt', 'caption', 'updatedAt'],
+    useAsTitle: 'filename',
   },
   fields: [
     {
       name: 'alt',
       type: 'text',
-      required: true,
+      required: false, // Alterado para false para evitar problemas com mídias migradas sem alt
       label: 'Texto alternativo (acessibilidade)',
     },
     {

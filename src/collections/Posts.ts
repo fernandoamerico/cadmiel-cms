@@ -24,7 +24,7 @@ export const Posts: CollectionConfig = {
   },
   admin: {
     useAsTitle: 'title',
-    defaultColumns: ['featuredImage', 'title', 'slug', 'status', 'publishedAt'],
+    defaultColumns: ['title', 'slug', 'status', 'publishedAt'],
     listSearchableFields: ['title', 'excerpt'],
     description: 'Artigos do blog "Mãos na Obra"',
     components: {
