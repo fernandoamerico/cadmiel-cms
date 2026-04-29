@@ -9,6 +9,16 @@ export const Media: CollectionConfig = {
   slug: 'media',
   upload: {
     staticDir: path.resolve(dirname, '../../public/media'),
+    imageSizes: [
+      {
+        name: 'thumbnail',
+        width: 400,
+        height: 300,
+        position: 'centre',
+      },
+    ],
+    adminThumbnail: 'thumbnail',
+    mimeTypes: ['image/*'],
   },
   access: {
     read: () => true, // publicly readable
@@ -18,6 +28,7 @@ export const Media: CollectionConfig = {
   },
   admin: {
     useAsTitle: 'alt',
+    defaultColumns: ['thumbnail', 'filename', 'alt', 'caption', 'updatedAt'],
   },
   fields: [
     {
