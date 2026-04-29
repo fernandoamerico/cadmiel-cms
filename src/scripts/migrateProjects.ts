@@ -16,7 +16,7 @@ async function downloadImage(url: string, dest: string) {
   fs.writeFileSync(dest, buffer)
 }
 
-function mapCategory(cat: string): string {
+function mapCategory(cat: string): 'residencial' | 'comercial' | 'corporativo' | 'design' {
   const c = cat?.toLowerCase() || ''
   if (c.includes('resid')) return 'residencial'
   if (c.includes('comerc') || c.includes('galp')) return 'comercial'
