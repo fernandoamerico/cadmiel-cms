@@ -67,6 +67,9 @@ export default buildConfig({
       connectionString: process.env.DATABASE_URI || (() => {
         throw new Error('DATABASE_URI env var is required')
       })(),
+      max: 5,
+      idleTimeoutMillis: 10000,
+      connectionTimeoutMillis: 5000,
     },
     push: false,
   }),
