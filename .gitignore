@@ -37,3 +37,4 @@ dist/
 migration_output.txt
 test-query.ts
 pajucara-vs-expansao.md
+.vercel
