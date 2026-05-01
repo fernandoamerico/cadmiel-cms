@@ -4,17 +4,7 @@ import React from 'react'
 export const MediaThumbnailCell: React.FC<any> = (props) => {
   const { rowData } = props
   
-  // Tenta obter a URL da imagem. 
-  // Em alguns casos o Payload retorna /api/media/file/..., 
-  // mas se estivermos em desenvolvimento local e o arquivo estiver em public/media,
-  // a URL correta para o navegador pode ser apenas /media/...
-  let src = rowData.url || rowData.thumbnailURL
-  
-  if (src && src.startsWith('/api/media/file/')) {
-    // Fallback: se a URL for o endpoint de API que pode estar quebrado no admin local,
-    // tentamos usar o caminho estático.
-    src = src.replace('/api/media/file/', '/media/')
-  }
+  const src = rowData.url || rowData.thumbnailURL
 
   if (!src) {
     return <div style={{ 
@@ -49,14 +39,6 @@ export const MediaThumbnailCell: React.FC<any> = (props) => {
           width: '100%', 
           height: '100%', 
           objectFit: 'cover' 
-        }}
-        onError={(e) => {
-          // Se falhar, tenta um último fallback removendo o prefixo se existir
-          const target = e.target as HTMLImageElement
-          if (src.startsWith('/media/')) {
-             // tenta sem o prefixo /media/ se for o caso
-             target.src = src.replace('/media/', '/')
-          }
         }}
       />
     </div>

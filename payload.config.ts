@@ -81,7 +81,13 @@ export default buildConfig({
       ? [
         vercelBlobStorage({
           enabled: true,
-          collections: { media: true },
+          collections: {
+            media: {
+              // Serve files directly from Vercel Blob CDN instead of proxying
+              // through Payload. Since read access is public, no access control needed.
+              disablePayloadAccessControl: true,
+            },
+          },
           token: process.env.BLOB_READ_WRITE_TOKEN,
         }),
       ]
