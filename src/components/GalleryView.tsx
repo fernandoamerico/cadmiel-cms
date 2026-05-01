@@ -1,99 +1,152 @@
 'use client'
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
 import { useListQuery } from '@payloadcms/ui'
-import { Gutter } from '@payloadcms/ui'
-import { MediaThumbnailCell } from './MediaThumbnailCell'
 
 export const GalleryView: React.FC = () => {
   const { data, collectionSlug } = useListQuery()
   const [view, setView] = useState<'table' | 'grid'>('table')
 
-  if (collectionSlug !== 'media') return null
+  useEffect(() => {
+    const tableWrap = document.querySelector('.collection-list__wrap')
+    if (!tableWrap) return
+    if (view === 'grid') {
+      ;(tableWrap as HTMLElement).style.display = 'none'
+    } else {
+      ;(tableWrap as HTMLElement).style.display = ''
+    }
+  }, [view])
 
-  const toggleView = () => setView(v => v === 'table' ? 'grid' : 'table')
+  if (collectionSlug !== 'media') return null
 
   if (view === 'table') {
     return (
-      <div style={{ marginBottom: '20px' }}>
-        <button 
-          onClick={toggleView}
+      <div style={{ marginBottom: '16px' }}>
+        <button
+          onClick={() => setView('grid')}
           style={{
             padding: '8px 16px',
-            backgroundColor: '#000',
+            backgroundColor: '#1a1a1a',
             color: '#fff',
             border: 'none',
             borderRadius: '4px',
             cursor: 'pointer',
-            fontWeight: 'bold'
+            fontWeight: 'bold',
+            fontSize: '14px',
           }}
         >
-          Mudar para Visualização em Grade (Grid)
+          Visualizar em Grade
         </button>
       </div>
     )
   }
 
   return (
-    <Gutter>
-      <div style={{ marginBottom: '20px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+    <div>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'space-between',
+          alignItems: 'center',
+          marginBottom: '20px',
+        }}
+      >
         <h2 style={{ margin: 0 }}>Galeria de Mídias</h2>
-        <button 
-          onClick={toggleView}
+        <button
+          onClick={() => setView('table')}
           style={{
             padding: '8px 16px',
-            backgroundColor: '#000',
+            backgroundColor: '#1a1a1a',
             color: '#fff',
             border: 'none',
             borderRadius: '4px',
             cursor: 'pointer',
-            fontWeight: 'bold'
+            fontWeight: 'bold',
+            fontSize: '14px',
           }}
         >
           Voltar para Lista
         </button>
       </div>
-      
-      <div style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))',
-        gap: '20px',
-        padding: '20px 0'
-      }}>
+
+      <div
+        style={{
+          display: 'grid',
+          gridTemplateColumns: 'repeat(auto-fill, minmax(180px, 1fr))',
+          gap: '16px',
+          paddingBottom: '32px',
+        }}
+      >
         {data?.docs?.map((doc: any) => (
-          <div key={doc.id} style={{
-            border: '1px solid #e5e7eb',
-            borderRadius: '8px',
-            overflow: 'hidden',
-            backgroundColor: '#fff',
-            transition: 'transform 0.2s',
-            cursor: 'pointer'
-          }}
-          onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.02)'}
-          onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
-          onClick={() => window.location.href = `/admin/collections/media/${doc.id}`}
+          <div
+            key={doc.id}
+            onClick={() => (window.location.href = `/admin/collections/media/${doc.id}`)}
+            style={{
+              border: '1px solid #333',
+              borderRadius: '8px',
+              overflow: 'hidden',
+              cursor: 'pointer',
+              backgroundColor: '#111',
+              transition: 'transform 0.15s, box-shadow 0.15s',
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.transform = 'scale(1.03)'
+              e.currentTarget.style.boxShadow = '0 4px 16px rgba(0,0,0,0.4)'
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.transform = 'scale(1)'
+              e.currentTarget.style.boxShadow = 'none'
+            }}
           >
-            <div style={{ height: '200px', width: '100%', position: 'relative' }}>
-               <MediaThumbnailCell rowData={doc} style={{ width: '100%', height: '100%', objectFit: 'cover' }} />
+            <div
+              style={{
+                width: '100%',
+                aspectRatio: '1 / 1',
+                overflow: 'hidden',
+                backgroundColor: '#1a1a1a',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+              }}
+            >
+              <img
+                src={doc.url || `/media/${doc.filename}`}
+                alt={doc.alt || doc.filename}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  display: 'block',
+                }}
+              />
             </div>
-            <div style={{ padding: '10px', fontSize: '12px', borderTop: '1px solid #e5e7eb' }}>
-              <div style={{ fontWeight: 'bold', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>
+            <div
+              style={{
+                padding: '8px 10px',
+                fontSize: '11px',
+                color: '#aaa',
+                borderTop: '1px solid #333',
+                overflow: 'hidden',
+              }}
+            >
+              <div
+                style={{
+                  fontWeight: 'bold',
+                  color: '#eee',
+                  overflow: 'hidden',
+                  textOverflow: 'ellipsis',
+                  whiteSpace: 'nowrap',
+                  marginBottom: '2px',
+                }}
+              >
                 {doc.filename}
               </div>
-              <div style={{ color: '#6b7280' }}>
-                {doc.width}x{doc.height} - {Math.round(doc.filesize / 1024)} KB
+              <div>
+                {doc.width}x{doc.height} · {Math.round((doc.filesize || 0) / 1024)} KB
               </div>
             </div>
           </div>
         ))}
       </div>
-      
-      {/* Esconde a tabela original quando o grid está ativo */}
-      <style dangerouslySetInnerHTML={{ __html: `
-        .collection-list__wrap > table, 
-        .collection-list__wrap > .list-controls { 
-          display: none !important; 
-        }
-      ` }} />
-    </Gutter>
+    </div>
   )
 }
