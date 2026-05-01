@@ -4,7 +4,7 @@ import { useListQuery } from '@payloadcms/ui'
 
 export const GalleryView: React.FC = () => {
   const { collectionSlug, data: listData } = useListQuery()
-  const [view, setView] = useState<'table' | 'grid'>('table')
+  const [view, setView] = useState<'table' | 'grid'>('grid')
   const [docs, setDocs] = useState<any[]>([])
   const [loading, setLoading] = useState(false)
 
