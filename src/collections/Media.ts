@@ -10,7 +10,20 @@ export const Media: CollectionConfig = {
   upload: {
     staticDir: path.resolve(dirname, '../../public/media'),
     mimeTypes: ['image/*'],
+    // adminThumbnail uses originalDoc (pre-hook), so we derive the URL in
+    // the collection afterRead hook below instead.
     adminThumbnail: ({ doc }) => doc.url as string,
+  },
+  hooks: {
+    // Fix thumbnailURL: Payload computes it from originalDoc.url (the raw DB
+    // value) before the cloud-storage plugin transforms url to the Blob CDN URL.
+    // Running here, after all field hooks, doc.url is already the Blob URL.
+    afterRead: [
+      ({ doc }) => {
+        if (doc.url) doc.thumbnailURL = doc.url
+        return doc
+      },
+    ],
   },
   access: {
     read: () => true, // publicly readable
