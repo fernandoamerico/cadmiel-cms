@@ -70,7 +70,6 @@ export default buildConfig({
       max: 3,
       idleTimeoutMillis: 10000,
       connectionTimeoutMillis: 5000,
-      prepare: false,
     },
     push: false,
   }),
