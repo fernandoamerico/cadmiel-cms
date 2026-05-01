@@ -4,6 +4,10 @@ import { triggerRevalidation } from '../utilities/revalidate'
 
 export const Posts: CollectionConfig = {
   slug: 'posts',
+  labels: {
+    singular: 'Postagem',
+    plural: 'Postagens',
+  },
   hooks: {
     afterChange: [
       ({ doc, previousDoc, operation }) => {

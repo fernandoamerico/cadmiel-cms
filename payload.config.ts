@@ -28,9 +28,11 @@ export default buildConfig({
     meta: {
       titleSuffix: '— Cadmiel CMS',
     },
+    theme: 'dark',
   },
 
   i18n: {
+    fallbackLanguage: 'pt',
     supportedLanguages: { pt, en },
   },
 
