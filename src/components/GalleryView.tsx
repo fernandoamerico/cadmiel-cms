@@ -3,17 +3,27 @@ import React, { useState, useEffect } from 'react'
 import { useListQuery } from '@payloadcms/ui'
 
 export const GalleryView: React.FC = () => {
-  const { data, collectionSlug } = useListQuery()
+  const { collectionSlug, data: listData } = useListQuery()
   const [view, setView] = useState<'table' | 'grid'>('table')
+  const [docs, setDocs] = useState<any[]>([])
+  const [loading, setLoading] = useState(false)
+
+  // Busca os docs com todos os campos (incluindo url do Vercel Blob)
+  // sempre que a lista mudar (paginação, filtros, etc.)
+  useEffect(() => {
+    if (view !== 'grid') return
+    setLoading(true)
+    const total = listData?.totalDocs || 100
+    fetch(`/api/media?limit=${total}&depth=0`)
+      .then((r) => r.json())
+      .then((json) => setDocs(json.docs || []))
+      .finally(() => setLoading(false))
+  }, [view, listData?.totalDocs])
 
   useEffect(() => {
     const tableWrap = document.querySelector('.collection-list__wrap')
     if (!tableWrap) return
-    if (view === 'grid') {
-      ;(tableWrap as HTMLElement).style.display = 'none'
-    } else {
-      ;(tableWrap as HTMLElement).style.display = ''
-    }
+    ;(tableWrap as HTMLElement).style.display = view === 'grid' ? 'none' : ''
   }, [view])
 
   if (collectionSlug !== 'media') return null
@@ -68,6 +78,10 @@ export const GalleryView: React.FC = () => {
         </button>
       </div>
 
+      {loading && (
+        <p style={{ color: '#aaa', marginBottom: '16px' }}>Carregando imagens...</p>
+      )}
+
       <div
         style={{
           display: 'grid',
@@ -76,7 +90,7 @@ export const GalleryView: React.FC = () => {
           paddingBottom: '32px',
         }}
       >
-        {data?.docs?.map((doc: any) => (
+        {docs.map((doc: any) => (
           <div
             key={doc.id}
             onClick={() => (window.location.href = `/admin/collections/media/${doc.id}`)}
@@ -108,16 +122,15 @@ export const GalleryView: React.FC = () => {
                 justifyContent: 'center',
               }}
             >
-              <img
-                src={doc.url || `/media/${doc.filename}`}
-                alt={doc.alt || doc.filename}
-                style={{
-                  width: '100%',
-                  height: '100%',
-                  objectFit: 'cover',
-                  display: 'block',
-                }}
-              />
+              {doc.url ? (
+                <img
+                  src={doc.url}
+                  alt={doc.alt || doc.filename}
+                  style={{ width: '100%', height: '100%', objectFit: 'cover', display: 'block' }}
+                />
+              ) : (
+                <span style={{ color: '#555', fontSize: '12px' }}>Sem preview</span>
+              )}
             </div>
             <div
               style={{
