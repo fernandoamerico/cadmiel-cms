@@ -28,7 +28,7 @@ export const Media: CollectionConfig = {
     useAsTitle: 'filename',
     defaultColumns: ['thumbnail', 'filename', 'alt', 'updatedAt'],
     components: {
-      beforeListTable: ['../components/GalleryView'],
+      beforeListTable: ['@/components/GalleryView#GalleryView'],
     },
   },
   fields: [
@@ -37,7 +37,7 @@ export const Media: CollectionConfig = {
       type: 'ui',
       admin: {
         components: {
-          Cell: '../components/MediaThumbnailCell',
+          Cell: '@/components/MediaThumbnailCell#MediaThumbnailCell',
         },
       },
     },
