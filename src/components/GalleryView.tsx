@@ -21,9 +21,10 @@ export const GalleryView: React.FC = () => {
   }, [view, listData?.totalDocs])
 
   useEffect(() => {
-    const tableWrap = document.querySelector('.collection-list__wrap')
-    if (!tableWrap) return
-    ;(tableWrap as HTMLElement).style.display = view === 'grid' ? 'none' : ''
+    // Target only the table itself, not the wrapper (which also contains this component)
+    const table = document.querySelector('.collection-list__wrap table')
+    if (!table) return
+    ;(table as HTMLElement).style.display = view === 'grid' ? 'none' : ''
   }, [view])
 
   if (collectionSlug !== 'media') return null
