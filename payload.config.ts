@@ -27,7 +27,10 @@ export default buildConfig({
     },
     meta: {
       titleSuffix: '— Cadmiel CMS',
+      favicon: '/favicon.ico',
+      ogImage: '/apple-touch-icon.png',
     },
+
     theme: 'dark',
   },
 
