@@ -283,6 +283,47 @@ export const Posts: CollectionConfig = {
         },
       ],
     },
+    // AEO fields
+    {
+      name: 'aeo',
+      type: 'group',
+      label: 'AEO (Otimização para IA)',
+      admin: {
+        description: 'Campos específicos para Otimização em Motores de Resposta (AI Overviews, ChatGPT, etc.)',
+      },
+      fields: [
+        {
+          name: 'quickAnswer',
+          type: 'textarea',
+          label: 'Bloco de Resposta Rápida (40-60 palavras)',
+          admin: {
+            description: 'Resposta direta e sem rodeios à pergunta central do tema. Usado no início do post.',
+          },
+        },
+        {
+          name: 'faqs',
+          type: 'array',
+          label: 'Perguntas Frequentes (FAQ / Subtítulos H2)',
+          admin: {
+            description: 'Estas perguntas devem refletir os H2s do texto e alimentarão o Schema Markup oculto (FAQPage) para os robôs.',
+          },
+          fields: [
+            {
+              name: 'question',
+              type: 'text',
+              required: true,
+              label: 'Pergunta (H2)',
+            },
+            {
+              name: 'answer',
+              type: 'textarea',
+              required: true,
+              label: 'Resposta Resumida',
+            },
+          ],
+        },
+      ],
+    },
   ],
   timestamps: true,
 }
