@@ -196,6 +196,25 @@ export interface Post {
      */
     description?: string | null;
   };
+  /**
+   * Campos específicos para Otimização em Motores de Resposta (AI Overviews, ChatGPT, etc.)
+   */
+  aeo?: {
+    /**
+     * Resposta direta e sem rodeios à pergunta central do tema. Usado no início do post.
+     */
+    quickAnswer?: string | null;
+    /**
+     * Estas perguntas devem refletir os H2s do texto e alimentarão o Schema Markup oculto (FAQPage) para os robôs.
+     */
+    faqs?:
+      | {
+          question: string;
+          answer: string;
+          id?: string | null;
+        }[]
+      | null;
+  };
   updatedAt: string;
   createdAt: string;
   _status?: ('draft' | 'published') | null;
@@ -445,6 +464,18 @@ export interface PostsSelect<T extends boolean = true> {
     | {
         title?: T;
         description?: T;
+      };
+  aeo?:
+    | T
+    | {
+        quickAnswer?: T;
+        faqs?:
+          | T
+          | {
+              question?: T;
+              answer?: T;
+              id?: T;
+            };
       };
   updatedAt?: T;
   createdAt?: T;
