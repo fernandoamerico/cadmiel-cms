@@ -1,0 +1,3663 @@
+[10:07:04] [33mWARN[39m: [36mNo email adapter provided. Email will be written to console. More info at https://payloadcms.com/docs/email/overview.[39m
+
+
+--- POST: A Revolução da Casa Proativa: IA e Tecnologia Invisível no Alto Padrão ---
+{
+  "root": {
+    "type": "root",
+    "format": "",
+    "indent": 0,
+    "version": 1,
+    "children": [
+      {
+        "tag": "h1",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Além do Comando de Voz",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Em 2026, a automação residencial de luxo passou por uma mudança de paradigma. O que antes era chamado de \"casa inteligente\" — baseada em comandos de voz reativos — deu lugar à ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "Casa Proativa",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": ". Neste novo cenário, a residência não apenas obedece, ela ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "antecipa",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": ". Através de Inteligência Artificial preditiva e ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "machine learning",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 2,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": ", os imóveis de altíssimo padrão agora aprendem a rotina biológica e social dos moradores para ajustar o ambiente de forma autônoma.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Esta evolução é impulsionada pela busca por eficiência e pelo desejo de um luxo que não se impõe, mas que serve silenciosamente ao bem-estar da família.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "1. A Inteligência Preditiva: A Casa que Pensa",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Diferente da automação tradicional, que depende de uma ação do usuário, a IA residencial moderna funciona como um \"mordomo digital\" invisível:",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "tag": "ul",
+        "type": "list",
+        "start": 1,
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "listitem",
+            "value": 1,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Aprendizado de Rotina:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Sensores de presença e fluxo analisam em quais horários a família utiliza cada cômodo. Se a casa percebe que os moradores despertam às 6h30, ela inicia um protocolo de despertar gradual 20 minutos antes.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 2,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Antecipação de Necessidades:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " A IA cruza dados de agendas digitais com sensores meteorológicos. Se há uma reunião marcada e a temperatura em Maceió sobe, o escritório é climatizado minutos antes do início do compromisso.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          }
+        ],
+        "listType": "bullet",
+        "direction": null,
+        "textFormat": 1
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "2. Tecnologia Invisível: O Novo Código do Design",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Uma das maiores tendências para o público de alto padrão é a ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "Tecnologia Invisível",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": " (",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "Invisible Tech",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 2,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "). O objetivo é eliminar painéis complexos e fios aparentes para priorizar a arquitetura.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "tag": "h3",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Integração Imperceptível",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "tag": "ol",
+        "type": "list",
+        "start": 1,
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "listitem",
+            "value": 1,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": " ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "Som Estrutural:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Áudio transmitido através de transdutores instalados atrás de painéis de madeira ou gesso, transformando superfícies em fontes sonoras.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 2,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": " ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "Interfaces Ocultas:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Comandos integrados em veios de mármore ou sob o couro de bancadas, ativados apenas pelo toque ou proximidade.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 3,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": " ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "Climatização por Difusão Linear:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Refrigeração que utiliza rasgos finos no teto ou móveis planejados para camuflar grelhas, mantendo a estética limpa.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          }
+        ],
+        "listType": "number",
+        "direction": null
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "3. Gestão Energética: O Triângulo do Sol, Bateria e Conforto",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "A conexão entre ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "Energia Solar",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": " e ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "IA",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": " resolve o maior desafio do litoral: o custo da climatização constante.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "O Ciclo da Climatização Noturna:",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 1
+      },
+      {
+        "tag": "ul",
+        "type": "list",
+        "start": 1,
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "listitem",
+            "value": 1,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Acúmulo Diurno:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Painéis solares carregam bancos de baterias residenciais de última geração durante o dia.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 2,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Priorização Inteligente:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " A IA monitora a carga e, se a previsão indica uma noite quente, prioriza a energia acumulada para manter a climatização noturna sem custo adicional da rede elétrica.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          }
+        ],
+        "listType": "bullet",
+        "direction": null,
+        "textFormat": 1
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "4. Métricas de Valorização em Maceió (Dados 2026)",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Imóveis que nascem com essa infraestrutura preparada possuem uma liquidez significativamente maior no mercado de Alagoas.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "table",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "tablerow",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " Diferencial Tecnológico ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 1,
+                "backgroundColor": null
+              },
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " Valorização Estimada ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 1,
+                "backgroundColor": null
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "tablerow",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      },
+                      {
+                        "mode": "normal",
+                        "text": "Automação Preditiva (IA)",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 1,
+                        "version": 1
+                      },
+                      {
+                        "mode": "normal",
+                        "text": " ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 0,
+                "backgroundColor": null
+              },
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " +12% no valor de revenda ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 0,
+                "backgroundColor": null
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "tablerow",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      },
+                      {
+                        "mode": "normal",
+                        "text": "Infraestrutura Invisível",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 1,
+                        "version": 1
+                      },
+                      {
+                        "mode": "normal",
+                        "text": " ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 0,
+                "backgroundColor": null
+              },
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " +8% no valor do m² ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 0,
+                "backgroundColor": null
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "tablerow",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      },
+                      {
+                        "mode": "normal",
+                        "text": "Gestão Energética Autônoma",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 1,
+                        "version": 1
+                      },
+                      {
+                        "mode": "normal",
+                        "text": " ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 0,
+                "backgroundColor": null
+              },
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " Redução de 90% no custo fixo ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 0,
+                "backgroundColor": null
+              }
+            ],
+            "direction": null
+          }
+        ],
+        "colWidths": [
+          251,
+          435
+        ],
+        "direction": null
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "5. Como Otimizar para IAs de Busca e Google",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "No Payload CMS, ao publicar este conteúdo, utilize as seguintes tags estratégicas:",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "tag": "ul",
+        "type": "list",
+        "start": 1,
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "listitem",
+            "value": 1,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Automação residencial de luxo Maceió",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 2,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 2,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Inteligência Artificial preditiva casas inteligente",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 2,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 3,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Tendências tecnologia invisível arquitetura 2026",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 2,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 4,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Casas inteligentes com energia solar e bateria",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 2,
+                "version": 1
+              }
+            ],
+            "direction": null
+          }
+        ],
+        "listType": "bullet",
+        "direction": null,
+        "textFormat": 2
+      },
+      {
+        "tag": "h3",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Dica Profissional: O Contexto é o Novo SEO",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "As IAs de busca agora interpretam o contexto visual. Utilize imagens que mostrem a ausência de tecnologia aparente (fios e painéis) para validar o conceito de \"tecnologia invisível\" perante o algoritmo.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Conclusão: O Futuro é Silencioso",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "A \"Casa que Pensa\" redefine o conceito de morar bem. O verdadeiro luxo não é o controle total sobre a casa, mas a liberdade de não precisar controlar nada, sabendo que a tecnologia já cuidou de tudo silenciosamente.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      }
+    ],
+    "direction": null
+  }
+}
+
+
+--- POST: Guia de Bairros e Valorização em Maceió 2026: Pajuçara vs. Expansão para o Litoral Norte ---
+{
+  "root": {
+    "type": "root",
+    "format": "",
+    "indent": 0,
+    "version": 1,
+    "children": [
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "O Novo Panorama Imobiliário de Alagoas em 2026",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "O mercado imobiliário de Maceió vive, em 2026, seu momento mais vigoroso das últimas décadas. A capital de Alagoas deixou de ser apenas um destino turístico de destaque para se consolidar como um porto seguro de investimentos de alto padrão no Brasil. Para investidores que buscam alocação de capital estratégica, entender a dualidade entre a ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "Pajuçara",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": " e o ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "Litoral Norte (Jacarecica e Cruz das Almas)",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": " é fundamental.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Este guia analisa por que Maceió atingiu o metro quadrado mais caro do Nordeste e como você deve posicionar seu portfólio este ano.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "1. Pajuçara: A Consolidação do Luxo e o m² de R$ 14.220",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Em 2026, a Pajuçara não é apenas um bairro; é um indicador econômico. Com o metro quadrado atingindo a marca histórica de ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "R$ 14.220",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": ", o bairro superou mercados tradicionais como o Meireles (Fortaleza) e a Barra (Salvador).",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "tag": "h3",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "O Fator \"Escassez\" e Valorização",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "A valorização da Pajuçara é explicada pela lei básica da economia: oferta limitada e demanda explosiva. Com a orla da Ponta Verde saturada, os poucos terrenos remanescentes na Pajuçara foram ocupados por empreendimentos de ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "design assinado",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": " e conceitos de \"resort urbano\".",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "tag": "h3",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "O impacto da Revitalização de Jaraguá",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "A proximidade com o Porto de Jaraguá e a revitalização do bairro histórico criaram um \"corredor de valorização\". A nova fiação subterrânea, ciclovias modernas e a instalação de hubs de inovação próximos à orla atraíram um público de nômades digitais de luxo e investidores estrangeiros.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Ponto para o investidor:",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": " Se o seu foco é ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "liquidez imediata",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": " e ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "short-stay (Airbnb)",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": ", a Pajuçara é o destino imbatível. A taxa de ocupação em 2026 para apartamentos compactos de luxo na região mantém-se acima de 82%.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 1
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "2. Litoral Norte: A Fronteira da Expansão e o Conceito \"Pé na Areia\"",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Enquanto a Pajuçara representa a consolidação, bairros como ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "Jacarecica e Cruz das Almas",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": " representam o crescimento exponencial. O grande diferencial aqui é a possibilidade real do \"pé na areia\", algo geograficamente limitado na parte baixa tradicional.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "tag": "h3",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Jacarecica e o Efeito Parque Shopping",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Jacarecica consolidou-se como um bairro de uso misto de altíssimo padrão. A presença do Parque Shopping Maceió e a expansão de serviços de saúde e educação de elite na região criaram uma nova centralidade.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "tag": "ul",
+        "type": "list",
+        "start": 1,
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "listitem",
+            "value": 1,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Valor do m² em 2026:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Aproximadamente R$ 11.400.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 2,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Perfil:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Famílias de alto poder adquisitivo que buscam prédios com áreas de lazer equivalentes a clubes privados.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          }
+        ],
+        "listType": "bullet",
+        "direction": null,
+        "textFormat": 1
+      },
+      {
+        "tag": "h3",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Cruz das Almas: O Canteiro de Obras da Valorização",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Se você busca o maior ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "Alpha (retorno acima da média)",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": ", Cruz das Almas é o lugar. O bairro passou por uma transformação de infraestrutura, com novas avenidas e saneamento completo. É onde o investidor encontra o conceito de \"luxo acessível\" em comparação com a Pajuçara, mas com um potencial de valorização percentual muito maior até 2028.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "3. Análise Técnica: Custos de Construção e Índices (CUB-AL vs. Valor de Venda)",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Para o investidor que também olha para o custo de obra, 2026 apresenta desafios. O monitoramento do ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "CUB-AL (Custo Unitário Básico)",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": " é essencial. ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "tag": "ul",
+        "type": "list",
+        "start": 1,
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "listitem",
+            "value": 1,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Margem de Lucro:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Empreendimentos na Pajuçara trabalham com margens menores devido ao alto custo do terreno (outorga onerosa), compensadas pelo alto valor de venda.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 2,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Litoral Norte:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Oferece terrenos com melhor viabilidade financeira para incorporação, permitindo que o investidor compre na planta com descontos mais agressivos.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          }
+        ],
+        "listType": "bullet",
+        "direction": null,
+        "textFormat": 1
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "4. Estratégias de SEO para Imóveis em 2026",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Para que seu conteúdo no Payload CMS performe bem no Google e em IAs de busca, foque nestas palavras-chave que incluímos no artigo:",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "tag": "ul",
+        "type": "list",
+        "start": 1,
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "listitem",
+            "value": 1,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Melhores bairros para investir em Maceió 2026",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 2,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 2,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Valorização imobiliária Alagoas",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 2,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 3,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Apartamentos pé na areia Maceió",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 2,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 4,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Rentabilidade Airbnb Pajuçara",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 2,
+                "version": 1
+              }
+            ],
+            "direction": null
+          }
+        ],
+        "listType": "bullet",
+        "direction": null,
+        "textFormat": 2
+      },
+      {
+        "tag": "h3",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Por que o Google prioriza este conteúdo?",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "As IAs de busca hoje valorizam o ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "E-E-A-T (Expertise, Authoritativeness, Trustworthiness)",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": ". Ao citar dados específicos (R$ 14.220/m²), você demonstra autoridade técnica sobre o mercado local.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "5. Veredito: Onde Alocar em 2026?",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "tag": "ul",
+        "type": "list",
+        "start": 1,
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "listitem",
+            "value": 1,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Perfil Conservador/Renda:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Compre na ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "Pajuçara",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ". O foco é a preservação de patrimônio e renda de aluguel estável.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 2,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Perfil Arrojado/Ganho de Capital:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Invista em ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "Cruz das Almas ou Jacarecica",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": ". O potencial de dobrar o capital em ciclos de 5 anos é significativamente maior nesta região de expansão.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          }
+        ],
+        "listType": "bullet",
+        "direction": null,
+        "textFormat": 1
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Maceió não é mais uma promessa; é a capital da valorização no Nordeste. Seja pela sofisticação urbana da Pajuçara ou pela exclusividade litorânea do Norte, o momento de alocação é agora.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      }
+    ],
+    "direction": null
+  }
+}
+
+
+--- POST: Rentabilidade Imobiliária: O Boom do Aluguel por Temporada (Short-stay) em Maceió ---
+{
+  "root": {
+    "type": "root",
+    "format": "",
+    "indent": 0,
+    "version": 1,
+    "children": [
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "O Novo Eldorado do ROI Imobiliário no Nordeste",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "O mercado imobiliário de Maceió em 2026 não é apenas sobre \"viver bem\", é sobre ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "eficiência financeira",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": ". Com o amadurecimento das plataformas de economia compartilhada, como o Airbnb, a capital alagoana se tornou o destino preferido para quem busca o \"combo perfeito\": alta rentabilidade de locação somada a uma valorização patrimonial robusta.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Se você busca entender a ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "rentabilidade Airbnb em Maceió",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": ", este guia detalha como investidores profissionais estão alcançando retornos que superam os 27% ao ano.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "1. A Matemática do Sucesso: 27% de Retorno Anual",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Diferente de investimentos em renda fixa ou mercados saturados, Maceió oferece uma conta matemática agressiva e realista para 2026:",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "tag": "ul",
+        "type": "list",
+        "start": 1,
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "listitem",
+            "value": 1,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "15% de Rentabilidade (Short-stay):",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Através da locação por temporada de alto giro, especialmente em unidades compactas e bem localizadas.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 2,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "12% de Valorização Real:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " O ganho de capital sobre o imóvel devido à infraestrutura urbana e ao crescimento da demanda turística.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          }
+        ],
+        "listType": "bullet",
+        "direction": null,
+        "textFormat": 1
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Total:",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": " 27% de retorno anualizado, um número que posiciona Maceió no topo das opções de alocação de capital no Brasil.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 1
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "2. Jatiúca: O Coração Estratégico do Investimento",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Embora a Pajuçara detenha o metro quadrado mais caro, a ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "Jatiúca",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": " é a \"queridinha\" dos investidores focados em short-stay. ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "tag": "h3",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Por que a Jatiúca?",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "tag": "ol",
+        "type": "list",
+        "start": 1,
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "listitem",
+            "value": 1,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": " ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "Hub Gastronômico:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " A maior concentração de restaurantes premium e serviços de Maceió está aqui, o que aumenta a nota do imóvel nas plataformas de reserva.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 2,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": " ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "Infraestrutura Urbana:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Prédios mais novos com áreas de lazer \"instagramáveis\", fundamentais para atrair o turista de 2026.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 3,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": " ",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": "Proximidade com a Orla:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " A facilidade de acesso à praia, aliada à conveniência de shoppings e academias, reduz drasticamente a vacância.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          }
+        ],
+        "listType": "number",
+        "direction": null
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "3. O Segredo da Compra na Planta: Desconto de até 30%",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Uma das estratégias mais eficazes para maximizar o ROI é a aquisição de ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "lançamentos na planta",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": ". Em 2026, unidades adquiridas no lançamento podem custar até ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": "30% menos",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          },
+          {
+            "mode": "normal",
+            "text": " do que o valor de mercado após a entrega das chaves.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Vantagens para o investidor:",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 1,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 1
+      },
+      {
+        "tag": "ul",
+        "type": "list",
+        "start": 1,
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "listitem",
+            "value": 1,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Fluxo de Pagamento Facilitado:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Menor desembolso inicial durante a obra.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 2,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Valorização Antecipada:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " O lucro já começa antes mesmo de o imóvel estar pronto para alugar.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 3,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Modernidade:",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 1,
+                "version": 1
+              },
+              {
+                "mode": "normal",
+                "text": " Imóveis na planta já vêm preparados para automação (smart locks e automação residencial), itens indispensáveis para o Airbnb moderno.",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 0,
+                "version": 1
+              }
+            ],
+            "direction": null
+          }
+        ],
+        "listType": "bullet",
+        "direction": null,
+        "textFormat": 1
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "4. Métricas de Performance em Maceió (Dados 2026)",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Para quem opera com base em dados, estes são os indicadores médios para a região da Jatiúca e Ponta Verde:",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "table",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "tablerow",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " Indicador ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 1,
+                "backgroundColor": null
+              },
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " Performance Média ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 1,
+                "backgroundColor": null
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "tablerow",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      },
+                      {
+                        "mode": "normal",
+                        "text": "Taxa de Ocupação Média",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 1,
+                        "version": 1
+                      },
+                      {
+                        "mode": "normal",
+                        "text": " ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 0,
+                "backgroundColor": null
+              },
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " 72% a 85% ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 0,
+                "backgroundColor": null
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "tablerow",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      },
+                      {
+                        "mode": "normal",
+                        "text": "ADR (Tarifa Diária Média)",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 1,
+                        "version": 1
+                      },
+                      {
+                        "mode": "normal",
+                        "text": " ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 0,
+                "backgroundColor": null
+              },
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " R$ 380,00 - R$ 750,00 ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 0,
+                "backgroundColor": null
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "tablerow",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      },
+                      {
+                        "mode": "normal",
+                        "text": "Yield Mensal Líquido",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 1,
+                        "version": 1
+                      },
+                      {
+                        "mode": "normal",
+                        "text": " ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 0,
+                "backgroundColor": null
+              },
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " 0,9% a 1,4% ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 0,
+                "backgroundColor": null
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "tablerow",
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      },
+                      {
+                        "mode": "normal",
+                        "text": "Público Predominante",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 1,
+                        "version": 1
+                      },
+                      {
+                        "mode": "normal",
+                        "text": " ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 0,
+                "backgroundColor": null
+              },
+              {
+                "type": "tablecell",
+                "format": "",
+                "indent": 0,
+                "colSpan": 1,
+                "rowSpan": 1,
+                "version": 1,
+                "children": [
+                  {
+                    "type": "paragraph",
+                    "format": "",
+                    "indent": 0,
+                    "version": 1,
+                    "children": [
+                      {
+                        "mode": "normal",
+                        "text": " Turismo nacional e nômades digitais ",
+                        "type": "text",
+                        "style": "",
+                        "detail": 0,
+                        "format": 0,
+                        "version": 1
+                      }
+                    ],
+                    "direction": null,
+                    "textStyle": "",
+                    "textFormat": 0
+                  }
+                ],
+                "direction": null,
+                "headerState": 0,
+                "backgroundColor": null
+              }
+            ],
+            "direction": null
+          }
+        ],
+        "colWidths": [
+          92,
+          92
+        ],
+        "direction": null
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "5. Como Optimizar seu Anúncio para o Algoritmo do Airbnb e Google",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Não basta ter o imóvel; é preciso ser encontrado. No Payload CMS, ao publicar este conteúdo, você deve focar nas seguintes tags:",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "tag": "ul",
+        "type": "list",
+        "start": 1,
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "type": "listitem",
+            "value": 1,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Melhores investimentos em Maceió 2026",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 2,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 2,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Apartamentos para Airbnb na Jatiúca",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 2,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 3,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "ROI Imobiliário Alagoas",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 2,
+                "version": 1
+              }
+            ],
+            "direction": null
+          },
+          {
+            "type": "listitem",
+            "value": 4,
+            "format": "",
+            "indent": 0,
+            "version": 1,
+            "children": [
+              {
+                "mode": "normal",
+                "text": "Comprar apartamento na planta Maceió",
+                "type": "text",
+                "style": "",
+                "detail": 0,
+                "format": 2,
+                "version": 1
+              }
+            ],
+            "direction": null
+          }
+        ],
+        "listType": "bullet",
+        "direction": null,
+        "textFormat": 2
+      },
+      {
+        "tag": "h3",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Dica Profissional: O Design é o Novo SEO",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Em 2026, os algoritmos de busca (incluindo o do Airbnb) priorizam imagens de alta qualidade. Invista em fotografia profissional e arquitetura de interiores pensada para o público \"short-stay\".",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "horizontalrule",
+        "version": 1
+      },
+      {
+        "tag": "h2",
+        "type": "heading",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "6. Conclusão: É hora de Alocar em Maceió",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "A janela de oportunidade para retornos acima de 25% anualizados ainda está aberta, mas a velocidade da valorização em Maceió sugere que os preços de entrada subirão em breve. ",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      },
+      {
+        "type": "paragraph",
+        "format": "",
+        "indent": 0,
+        "version": 1,
+        "children": [
+          {
+            "mode": "normal",
+            "text": "Investir na Jatiúca, especialmente em produtos adquiridos na planta, é a jogada de mestre para quem quer unir segurança patrimonial com fluxo de caixa constante.",
+            "type": "text",
+            "style": "",
+            "detail": 0,
+            "format": 0,
+            "version": 1
+          }
+        ],
+        "direction": null,
+        "textStyle": "",
+        "textFormat": 0
+      }
+    ],
+    "direction": null
+  }
+}
