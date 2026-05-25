@@ -37,7 +37,7 @@ ESTRUTURA OBRIGATÓRIA (JSON):
 - faqs: Array de 4 perguntas frequentes e respostas (diferentes dos H2).
 - contentBlocks: Array com o corpo do texto.
   - Use type "h2" para as perguntas principais.
-  - Use "paragraph" para o desenvolvimento.
+  - Use "paragraph" para o desenvolvimento. OBRIGATÓRIO: Cada "h2" deve ser seguido imediatamente por 2 a 3 blocos do tipo "paragraph" desenvolvendo bem a resposta (evite blocos com apenas 1 parágrafo).
   - OBRIGATÓRIO: Inclua pelo menos 1 bloco do type "list" com os itens no array "items".
   - OBRIGATÓRIO: Inclua pelo menos 1 bloco do type "table" com comparativos de materiais ou custos no objeto "tableData".
   O texto total deve ultrapassar 800 palavras.`;
@@ -227,7 +227,7 @@ ESTRUTURA OBRIGATÓRIA (JSON):
     // 4. Gerar Imagem de Capa com GPT Image
     console.log("🎨 Solicitando imagem de capa ao GPT Image...");
     const imageResponse = await openai.images.generate({
-      model: "gpt-image-1-mini",
+      model: "gpt-image-1.5",
       prompt: `Uma fotografia hiper realista, profissional e de alta qualidade sobre: ${theme}. Foco em construção civil, engenharia, galpões ou arquitetura de alto padrão. Iluminação cinemática, realista, sem textos ou letras escritas na imagem.`,
       n: 1,
       size: "1024x1024"

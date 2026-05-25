@@ -28,6 +28,12 @@ export const Posts: CollectionConfig = {
   },
   admin: {
     useAsTitle: 'title',
+    preview: (doc) => {
+      if (doc?.slug) {
+        return `https://www.cadmielconstrutora.com/blog/${doc.slug}`;
+      }
+      return null;
+    },
     defaultColumns: ['featuredImage', 'title', 'slug', 'status', 'publishedAt'],
     listSearchableFields: ['title', 'excerpt'],
     description: 'Artigos do blog "Mãos na Obra"',

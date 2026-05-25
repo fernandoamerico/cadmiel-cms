@@ -16,7 +16,7 @@
 
 ## 🚧 O que falta / Próximos Passos (To-Do)
 
-- [ ] **Ajustar o Modelo de Imagem no Script:**
+- [x] **Ajustar o Modelo de Imagem no Script:**
   - O código atual pede o modelo `gpt-image-1-mini`, que não é o padrão da OpenAI. É recomendável testar ou alterar para `dall-e-3` ou `dall-e-2` no `openai.images.generate`.
 - [ ] **Validação do Upload de Imagem no Payload CMS:**
   - Garantir que a imagem em base64 (`b64_json`) gerada pela OpenAI está sendo corretamente convertida e anexada/enviada para a coleção de `media` do Payload CMS via API.
