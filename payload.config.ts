@@ -1,6 +1,6 @@
 import { postgresAdapter } from '@payloadcms/db-postgres'
 import { lexicalEditor, EXPERIMENTAL_TableFeature } from '@payloadcms/richtext-lexical'
-import { vercelBlobStorage } from '@payloadcms/storage-vercel-blob'
+import { s3Storage } from '@payloadcms/storage-s3'
 import path from 'path'
 import { buildConfig } from 'payload'
 import { fileURLToPath } from 'url'
@@ -79,22 +79,26 @@ export default buildConfig({
   }),
 
   plugins: [
-    // Only enable Vercel Blob when the token is present (production).
-    // In local dev, uploads are stored on disk automatically.
-    ...(process.env.BLOB_READ_WRITE_TOKEN
+    // Use S3 plugin for Cloudflare R2 when credentials are present
+    ...(process.env.S3_ACCESS_KEY_ID
       ? [
-        vercelBlobStorage({
-          enabled: true,
-          collections: {
-            media: {
-              // Serve files directly from Vercel Blob CDN instead of proxying
-              // through Payload. Since read access is public, no access control needed.
-              disablePayloadAccessControl: true,
+          s3Storage({
+            collections: {
+              media: {
+                disablePayloadAccessControl: true,
+              },
             },
-          },
-          token: process.env.BLOB_READ_WRITE_TOKEN,
-        }),
-      ]
+            bucket: process.env.S3_BUCKET || '',
+            config: {
+              endpoint: process.env.S3_ENDPOINT || '',
+              region: 'auto',
+              credentials: {
+                accessKeyId: process.env.S3_ACCESS_KEY_ID || '',
+                secretAccessKey: process.env.S3_SECRET_ACCESS_KEY || '',
+              },
+            },
+          }),
+        ]
       : []),
   ],
 
