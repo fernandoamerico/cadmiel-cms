@@ -54,4 +54,4 @@ jobs:
         if: success()
         run: |
           echo "Disparando o deploy no Coolify..."
-          curl -H "Authorization: Bearer ${{ secrets.COOLIFY_TOKEN }}" -X GET "${{ secrets.COOLIFY_WEBHOOK }}"
+          curl -H "Authorization: Bearer ${{ secrets.COOLIFY_TOKEN }}" -X POST "${{ secrets.COOLIFY_WEBHOOK }}"
