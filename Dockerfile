@@ -24,7 +24,7 @@ ENV S3_ACCESS_KEY_ID=dummy_s3_key
 # Desabilitar a telemetria do Next.js
 ENV NEXT_TELEMETRY_DISABLED=1
 
-RUN npm run build
+RUN npx next build
 
 # 3. Imagem de Produção Final
 FROM base AS runner
